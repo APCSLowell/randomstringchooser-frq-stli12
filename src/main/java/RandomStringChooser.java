@@ -9,10 +9,10 @@ public class RandomStringChooser
     }
   }
   public String getNext(){
-    if( valueArr.size() == 0)
+    if( valuesArr.size() == 0)
       return "NONE";
 
-    int index = (int)(Math.random() * valueArr.size());
+    int index = (int)(Math.random() * valuesArr.size());
     return valuesArr.remove(index);
 
   }
